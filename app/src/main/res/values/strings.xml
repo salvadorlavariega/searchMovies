@@ -6,5 +6,17 @@
     <string name="action_settings">Settings</string>
     <string name="button_search_movies">Search movie</string>
     <string name="edit_text_search_hint">Name of movie</string>
+    <string name="text_view_title_label">Title:</string>
+    <string name="text_view_year_label">Year:</string>
+    <string name="text_view_genre_label">Genre</string>
+    <string name="text_view_director_label">Director:</string>
+    <string name="text_view_actors_label">Actors:</string>
+    <string name="text_view_plot_label">Plot:</string>
+    <string name="text_view_title_desc" />
+    <string name="text_view_year_desc" />
+    <string name="text_view_genre_desc" />
+    <string name="text_view_director_desc" />
+    <string name="text_view_actors_desc" />
+    <string name="text_view_plot_desc" />
 
 </resources>

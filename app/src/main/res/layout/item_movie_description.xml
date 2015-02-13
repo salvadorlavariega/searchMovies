@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <WebView
+        android:layout_width="150dp"
+        android:layout_height="200dp"
+        android:id="@+id/web_view_poster"
+        android:layout_gravity="center_horizontal" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_title_label"
+            android:id="@+id/text_view_title_label" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="@string/text_view_title_desc"
+            android:id="@+id/text_view_title_desc"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_year_label"
+            android:id="@+id/text_view_year_label" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="@string/text_view_year_desc"
+            android:id="@+id/text_view_year_desc"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_genre_label"
+            android:id="@+id/text_view_genre_label" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="@string/text_view_genre_desc"
+            android:id="@+id/text_view_genre_desc"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_director_label"
+            android:id="@+id/text_view_director_label" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="@string/text_view_director_desc"
+            android:id="@+id/text_view_director_desc"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_actors_label"
+            android:id="@+id/text_view_actors_label" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:text="@string/text_view_actors_desc"
+            android:id="@+id/text_view_actors_desc"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="41dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/text_view_plot_label"
+            android:id="@+id/text_view_plot_label" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="161dp"
+            android:text="@string/text_view_plot_desc"
+            android:id="@+id/text_view_plot_desc"
+            android:layout_marginLeft="8dp" />
+    </LinearLayout>
+
+</LinearLayout>
